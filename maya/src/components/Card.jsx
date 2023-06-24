@@ -5,11 +5,6 @@ const Card = ({ data }) => {
     return (
         <div className="row">
             {data.map((item) => {
-                // return(<div key={item.id}>
-                //     <img src={item.image} alt={item.name} />
-                //     <h5>{item.name}</h5>
-                //     <p>{item.hour}</p>
-                // </div>)
                 return (
                     <div key={item.id} className="col-sm-6 col-md-4 g-3 custom-card">
                         <div className="card d-flex align-items-center text-center p-5" >
