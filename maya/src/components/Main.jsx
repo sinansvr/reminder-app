@@ -4,7 +4,7 @@ import Card from "./Card"
 const Main = ({data}) => {
     
   return (
-    <div>
+    <div className="rounded-3 ">
         <Card data={data}/>
     </div>
   )

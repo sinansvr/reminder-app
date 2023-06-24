@@ -3,9 +3,9 @@ import img from "../assets/img/Clarusway.png"
 
 const Header = () => {
   return (
-    <div>
+    <header>
         <img src={img} alt="logo" />
-    </div>
+    </header>
   )
 }
 
