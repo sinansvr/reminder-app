@@ -1,7 +1,40 @@
-.App{
-    min-width: 50vh!important;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.custom-card{
-    width: 2rem;
+body{
+    background-image: linear-gradient(90deg, rgb(2, 0, 36), rgb(121, 9, 83) 35%, rgb(0, 212, 255));
 }
+
+header{
+    background-color: rgba(96, 244, 242, 0.337);;
+}
+
+main{
+    background-color: rgba(222, 120, 120, 0.2);
+}
+
+.card-out{
+    padding: 1rem;
+
+}
+
+.card{
+    background-color: inherit ;
+    border: none!important;
+    padding: 1rem;
+}
+
+.img-div{
+    width: 5rem;
+    height: 15rem;
+    border-radius: 10px;
+}
+
+.img-div img{
+    width: 100%;
+    border-radius: 10px;
+}
+

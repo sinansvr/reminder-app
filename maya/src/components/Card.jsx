@@ -6,12 +6,15 @@ const Card = ({ data }) => {
         <div className="row">
             {data.map((item) => {
                 return (
-                    <div key={item.id} className="col-sm-6 col-md-4 g-3 custom-card">
-                        <div className="card d-flex align-items-center text-center p-5" >
-                            <img src={item.image} className="w-25 img-thumbnail" alt={item.name} />
+                    <div key={item.id} className="col-sm-6 col-md-4 g-2 card-out">
+                        <div className="card d-flex flex-row" >
+                            <div className="img-div">
+                                <img src={item.image} className="w-100 img-fluid" alt={item.name}  />
+                            </div>
+                            
                             <div className="card-body">
-                                <h5 className="card-text">{item.name}</h5>
-                                <h5 className="card-text">{item.hour}</h5>
+                                <h6 className="card-text"><span>Lesson Name:</span>  {item.name}</h6>
+                                <h6 className="card-text"><span>Lesson Hour:</span>  {item.hour}</h6>
                             </div>
                         </div>
                     </div>

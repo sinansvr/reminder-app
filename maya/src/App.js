@@ -1,14 +1,15 @@
-import Header from "./components/Header"
-import "bootstrap/dist/css/bootstrap.css"
-import {data} from "./assets/data"
-import Main from "./components/Main"
+import Header from "./components/Header";
+import "bootstrap/dist/css/bootstrap.css";
+import {data} from "./assets/data";
+import Main from "./components/Main";
+import './App.css';
+
 
 
 function App() {
 
-
   return (
-    <div className="App min-height-100">
+    <div className="App ">
       <Header/>
       <Main data={data}/>
     </div>

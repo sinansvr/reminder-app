@@ -3,7 +3,7 @@ import img from "../assets/img/Clarusway.png"
 
 const Header = () => {
   return (
-    <header>
+    <header className='container-fluid'>
         <img src={img} alt="logo" />
     </header>
   )
