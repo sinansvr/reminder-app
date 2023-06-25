@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -42,4 +46,9 @@ main{
 span{
     font-size: 1.2rem;
    color: rgb(240, 219, 79)!important;
+}
+
+h2{
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 2.5rem;
 }
