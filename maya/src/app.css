@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white!important;
 }
 
 body{
@@ -38,3 +39,7 @@ main{
     border-radius: 10px;
 }
 
+span{
+    font-size: 1.2rem;
+   color: rgb(240, 219, 79)!important;
+}
